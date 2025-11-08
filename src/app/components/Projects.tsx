@@ -9,7 +9,7 @@ const projects = [
     title: "Landing Page",
     description: "Para promocion de la fabrica La Conquista.",
     link: "",
-    images: ["/images/landing.png", "/images/landing2.png"],
+    images: ["/img-proyectos/landingpageLC1.png", "/img-proyectos/landingpageLC2.png","/img-proyectos/landingpageLC3.png"],
   },
   {
     id: 2,

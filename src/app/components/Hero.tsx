@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaEnvelope,FaInstagram } from "react-icons/fa";
+import {FaGithub, FaEnvelope,FaInstagram } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -19,13 +19,12 @@ export default function Hero() {
             Ver proyectos
           </a>
           <a href="mailto:horizonteweb26@gmail.com" className="px-4 py-2 rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-50">
-            Contactame
+            Contactanos
           </a>
         </div>
 
         <div className="flex gap-4 mt-6">
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
+          <a href="https://github.com/horizonteweb/" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
           <a href="mailto:horizonteweb26@gmail.com"><FaEnvelope size={24} /></a>
           <a href="https://www.instagram.com/horizonteweb26/" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a>
         </div>
