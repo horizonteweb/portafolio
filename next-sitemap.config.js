@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'http://localhost:3000', // ⬅️ Reemplazá por tu dominio real
+  siteUrl: 'https://horizonteweb.vercel.app', 
   generateRobotsTxt: true,
   sitemapSize: 7000,
-  exclude: ['/server-sitemap.xml'], // opcional
+  exclude: ['/server-sitemap.xml'], 
 };
