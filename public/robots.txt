@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://horizonteweb.vercel.app
+
 # Sitemaps
 Sitemap: https://horizonteweb.vercel.app/sitemap.xml
